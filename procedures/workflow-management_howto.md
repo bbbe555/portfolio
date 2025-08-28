@@ -13,7 +13,7 @@ This guide describes the tools we're using to manage work and how to use them.
 - [Getting Started](#getting-started)
 - [Tools and Services](#tools-and-services)
   - [GitHub Issues](#github-issues)
-  - [CR8S Operations Board](#cr8s-operations-board)
+  - [Operations Board](#operations-board)
   - [Issue Types](#issue-types)
   - [Creating New Issues](#creating-new-issues)
   - [Issue Management](#issue-management)
@@ -33,8 +33,8 @@ This guide describes the tools we're using to manage work and how to use them.
 
 ## Getting Started
 New team members should follow these steps to get started:
-1. **Access GitHub**: Ensure you have a GitHub account and access to the [54-CR8S organization](https://github.com/54-CR8S).
-2. **Join the Operations Board**: Request access to the [Operations Board](https://github.com/orgs/54-CR8S/projects/1) from your team lead.
+1. **Access GitHub**: Ensure you have a GitHub account and access to the [organization](https://github.com/org).
+2. **Join the Operations Board**: Request access to the [Operations Board](https://github.com/orgs/org/projects/1) from your team lead.
 3. **Familiarize with Issue Types**: Review the [Issue Types](#issue-types) to understand how work is categorized.
 
 ## Tools and Services
@@ -43,9 +43,9 @@ New team members should follow these steps to get started:
 
 GitHub repositories use [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) to organize work. Think of them as the atomic level basic work item. They can be as brief or expansive as necessary, including having sub-tasks added for large multi-stepped tasks or projects.
 
-### CR8S Operations Board
+### Operations Board
 
-The [Operations Board](https://github.com/orgs/54-CR8S/projects/1) is a Kanban board that organizes issues into columns (e.g., Backlog, In Progress, Done) to track and prioritize all CR8S work.
+The [Operations Board](https://github.com/orgs/org/projects/1) is a Kanban board that organizes issues into columns (e.g., Backlog, In Progress, Done) to track and prioritize all work.
 
 ![GitHub Operations Project](../images/operations-board.png)
 
@@ -62,7 +62,7 @@ We use different issue types to categorize work:
 
 ### Creating New Issues
 
-Use the [CR8S Issues page](https://github.com/54-CR8S/CR8S/issues) to create and manage issues.
+Use the [Issues page](https://github.com/org/repo/issues) to create and manage issues.
 
 ![GitHub Issues List](../images/issues-list.png)
 
@@ -80,7 +80,7 @@ The "New Issue" button will open the menu to select the issue types described ab
 ### Issue Management
 
 #### Backlog Queue
-New issues are automatically added to the **Backlog** column on the [Operations Board](https://github.com/orgs/54-CR8S/projects/1) with a `triage` label. Labels help categorize and prioritize work.
+New issues are automatically added to the **Backlog** column on the [Operations Board](https://github.com/orgs/org/projects/1) with a `triage` label. Labels help categorize and prioritize work.
 
 > **When to create an issue**: Create an issue for any work, such as:
 > - Proposing new features
@@ -148,7 +148,7 @@ For critical bugs or incidents:
 Rituals are regular meetings to align, plan, and track progress. They integrate with the Operations Board to keep work on track.
 
 ### Roadmap
-- **Purpose**: Align on long-term goals and objectives for CR8S.
+- **Purpose**: Align on long-term goals and objectives for X.
 - **Process**: Regular (quarterly) meetings to review and update the product roadmap, prioritizing high-impact features and fixes.
 - **Tools**: Use the Initiatives view on the Operations Board to consider ongoing commitments and goals.
 
@@ -180,11 +180,11 @@ If tools or processes hinder delivering quality results:
 - **Operations Board**: A Kanban board in GitHub for tracking and prioritizing issues.
 
 ## Workflow Summary
-1. **Create Issue**: Use the [CR8S Issues page](https://github.com/54-CR8S/CR8S/issues) to open a Bug, Feature, Incident, or Service Request.
+1. **Create Issue**: Use the [Issues page](https://github.com/org/repo/issues) to open a Bug, Feature, Incident, or Service Request.
 2. **Triage**: Add scope, impact, and contact details; remove `triage` label.
 3. **Groom**: Clarify requirements, add user story and Definition of Done; remove `groom` label.
 4. **Plan**: Estimate effort (S/M/L), set priority (Low/Medium/High), and assign owners.
-5. **Track**: Monitor progress on the [Operations Board](https://github.com/orgs/54-CR8S/projects/1).
+5. **Track**: Monitor progress on the [Operations Board](https://github.com/orgs/org/projects/1).
 6. **Review**: Attend Standups, Planning, and Roadmap sessions to stay aligned.
 
 ## Caveats
