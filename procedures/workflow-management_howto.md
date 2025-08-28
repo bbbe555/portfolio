@@ -1,3 +1,7 @@
+---
+layout: default
+title: Workflow Management HowTo
+---
 # Workflow Management
 
 ## Overview
